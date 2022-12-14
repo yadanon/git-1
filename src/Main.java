@@ -13,6 +13,8 @@ public class Main {
         listOfStrings.add("12");
         listOfStrings.add("bsdfbsb");
         printMap(getStatisticsOfCharsInList(listOfStrings));
+        User user = new User();
+        user.printer();
     }
 
     @SuppressWarnings("java:S106")
@@ -71,6 +73,7 @@ public class Main {
             map.put(symbol, 0);
         }
     }
+
 
 }
 
